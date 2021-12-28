@@ -161,4 +161,4 @@ nfs_mount_enabled: false
 #hooks:
 #  post-start:
 #    - exec: composer install -d /var/www/html
-composer_version: 2
+# composer_version: 2
