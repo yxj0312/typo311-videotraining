@@ -1,8 +1,8 @@
 name: typo311-videotraining
 type: typo3
 docroot: public
-php_version: "7.2"
-webserver_type: nginx-fpm
+php_version: "7.4"
+webserver_type: apache-fpm
 router_http_port: "80"
 router_https_port: "443"
 xdebug_enabled: false
@@ -42,7 +42,7 @@ use_dns_when_possible: true
 # mariadb_version and mysql_version
 # ddev can use many versions of mariadb and mysql
 # However these directives are mutually exclusive
-# mariadb_version: 10.2
+mariadb_version: 10.3
 # mysql_version: 8.0
 
 # router_http_port: <port>  # Port to be used for http (defaults to port 80)
@@ -89,7 +89,7 @@ use_dns_when_possible: true
 # the "db" container, several standard features of ddev that access the
 # database container will be unusable.
 
-# nfs_mount_enabled: false
+nfs_mount_enabled: false
 # Great performance improvement but requires host configuration first.
 # See https://ddev.readthedocs.io/en/stable/users/performance/#using-nfs-to-mount-the-project-into-the-container
 
@@ -161,3 +161,4 @@ use_dns_when_possible: true
 #hooks:
 #  post-start:
 #    - exec: composer install -d /var/www/html
+composer_version: 2
