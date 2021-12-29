@@ -34,7 +34,8 @@
         "typo3/cms-t3editor": "^11.5",
         "typo3/cms-tstemplate": "^11.5",
         "typo3/cms-viewpage": "^11.5",
-        "typo3/cms-workspaces": "^11.5"
+        "typo3/cms-workspaces": "^11.5",
+        "helhum/typo3-console": "^7.0"
     },
     "config": {
         "allow-plugins": {
