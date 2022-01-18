@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9800506fe93ea31187195fc93d5a4d39",
+    "content-hash": "ccb6020186b79b45be59d3c69afc3779",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -7684,6 +7684,37 @@
                 "source": "https://github.com/webmozarts/assert/tree/1.10.0"
             },
             "time": "2021-03-09T10:59:23+00:00"
+        },
+        {
+            "name": "wwagner/vt11",
+            "version": "1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "./Packages/vt11",
+                "reference": "ced35fe546d01d206ed738af1f8223c8b3a65aa7"
+            },
+            "require": {
+                "typo3/cms-fluid-styled-content": "^11.5"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "vt11"
+                }
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Wolfgang Wagner",
+                    "email": "videotraing@wwagner.net"
+                }
+            ],
+            "description": "Template",
+            "transport-options": {
+                "relative": true
+            }
         }
     ],
     "packages-dev": [],
