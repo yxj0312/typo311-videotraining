@@ -1,0 +1,5 @@
+// @import "EXT:vt11/Configuration/TypoScript/Setup/*.typoscript"
+
+page = PAGE
+page.20 = TEXT
+page.20.value = Joo, es funktioniert
