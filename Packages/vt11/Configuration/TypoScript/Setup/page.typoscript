@@ -8,6 +8,14 @@ page {
     includeCSS {
         main = EXT:vt11/Resources/Public/Css/main.css
     }
+
+    includeJSFooter {
+        jquery = EXT:vt11/Resources/Public/JavaScript/jquery.min.js
+        browser = EXT:vt11/Resources/Public/JavaScript/browser.min.js
+        breakpoints = EXT:vt11/Resources/Public/JavaScript/breakpoints.min.js
+        util = EXT:vt11/Resources/Public/JavaScript/util.js
+        main = EXT:vt11/Resources/Public/JavaScript/main.js
+    }
 }
 
 
