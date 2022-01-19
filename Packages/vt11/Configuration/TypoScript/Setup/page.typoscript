@@ -1,5 +1,9 @@
 page = PAGE
 
+page.includeCSS {
+    main = EXT:vt11/Resources/Public/Css/main.css
+}
+
 page.10 = FLUIDTEMPLATE
 page.10 {
     layoutRootPath = EXT:vt11/Resources/Private/Layouts/
