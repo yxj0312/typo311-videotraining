@@ -1,3 +1,9 @@
 page = PAGE
-page.20 = TEXT
-page.20.value = Joo, es funktioniert
+
+page.10 = FLUIDTEMPLATE
+page.10 {
+    layoutRootPath = EXT:vt11/Resources/Private/Layouts/
+    partialRootPath = EXT:vt11/Resources/Private/Partials/
+
+    file = EXT:vt11/Resources/Private/Templates/Default.html
+}
