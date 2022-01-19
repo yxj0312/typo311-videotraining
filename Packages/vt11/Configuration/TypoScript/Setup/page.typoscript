@@ -1,8 +1,15 @@
 page = PAGE
 
-page.includeCSS {
-    main = EXT:vt11/Resources/Public/Css/main.css
+page {
+    meta {
+        viewport = width=device-width, initial-scale=1, user-scalable=no
+    }
+
+    includeCSS {
+        main = EXT:vt11/Resources/Public/Css/main.css
+    }
 }
+
 
 page.10 = FLUIDTEMPLATE
 page.10 {
