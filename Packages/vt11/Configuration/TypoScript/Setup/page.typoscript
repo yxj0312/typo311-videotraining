@@ -25,4 +25,8 @@ page.10 {
     partialRootPath = EXT:vt11/Resources/Private/Partials/
 
     file = EXT:vt11/Resources/Private/Templates/Default.html
+
+    variables {
+        content0 < styles.content.get
+    }
 }
