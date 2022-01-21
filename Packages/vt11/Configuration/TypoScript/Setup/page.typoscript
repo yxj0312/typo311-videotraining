@@ -28,5 +28,8 @@ page.10 {
 
     variables {
         content0 < styles.content.get
+
+        content1 < styles.content.get
+        content1.select.where = colPos = 1
     }
 }
