@@ -25,3 +25,36 @@ mod.web_layout.BackendLayouts {
     }
   }
 }
+
+mod.web_layout.BackendLayouts {
+  2colssidebar {
+    title = Example
+    icon = EXT:example_extension/Resources/Public/Images/BackendLayouts/default.gif
+    config {
+      backend_layout {
+        colCount = 5
+        rowCount = 1
+        rows {
+          1 {
+            columns {
+              1 {
+                name = Sidebar
+                colPos = 1
+              }
+              2 {
+                name = Content Left
+                colspan = 2
+                colPos = 0
+              }
+              3 {
+                name = Content Right
+                colspan = 2
+                colPos = 2
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
