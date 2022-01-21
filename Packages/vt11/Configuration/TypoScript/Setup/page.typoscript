@@ -30,6 +30,11 @@ page.10 {
         content0 < styles.content.get
 
         content1 < styles.content.get
-        content1.select.where = colPos = 1
+        content1 {
+            select.where = colPos = 1
+            slide = -1
+            slide.collect = -1
+            slide.collectReverse = 1
+        }
     }
 }
