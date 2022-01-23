@@ -24,7 +24,19 @@ page.10 {
     layoutRootPath = EXT:vt11/Resources/Private/Layouts/
     partialRootPath = EXT:vt11/Resources/Private/Partials/
 
-    file = EXT:vt11/Resources/Private/Templates/Default.html
+    # file = EXT:vt11/Resources/Private/Templates/Default.html
+    file.stdWrap.cObject = CASE
+    file.stdWrap.cObject {
+        key.data = pageLayout
+
+        pagets__default = TEXT
+        pagets__default.value = EXT:vt11/Resources/Private/Templates/Default.html
+
+        pagets__2colssidebar = TEXT
+        pagets__2colssidebar.value = EXT:vt11/Resources/Private/Templates/2colSidebar.html
+
+        default < .pagets__default
+    }
 
     variables {
         content0 < styles.content.get
@@ -36,5 +48,8 @@ page.10 {
             slide.collect = -1
             slide.collectReverse = 1
         }
+
+        content2 < styles.content.get
+        content2.select.where = colPos = 2
     }
 }
