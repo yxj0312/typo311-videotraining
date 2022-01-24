@@ -5,11 +5,12 @@
         <h2>Menu</h2>
     </header>
     <ul>
-        <f:for each="{mainMenu}" as="" iteration="i">
-            
+        <f:for each="{mainMenu}" as="item" iteration="i">
+            <li>
+                <f:link.page pageUid="{item.data.uid}">{item.title}</f:link.page>
+            </li>
         </f:for>
     </ul>
-
 </nav>
 
 <f:comment>
