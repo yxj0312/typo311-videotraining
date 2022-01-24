@@ -1,3 +1,5 @@
+config.contentObjectExceptionHandler = 0
+
 page = PAGE
 
 page {
