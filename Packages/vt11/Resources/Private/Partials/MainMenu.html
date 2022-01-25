@@ -6,13 +6,32 @@
     </header>
     <ul>
         <f:for each="{mainMenu}" as="item" iteration="i">
-            <f:debug title="" inline="1">{item}</f:debug>
-            <li>
-                <f:link.page pageUid="{item.data.uid}">{item.title}</f:link.page>
-            </li>
+            <f:render section="link" arguments="{_all}" />
         </f:for>
     </ul>
 </nav>
+
+<f:section name="link">
+    <li>
+        <f:if condition="{item.children}">
+            <f:then>
+                <span class="opener">{item.title}</span>
+                <f:render section="submenu" arguments="{_all}" />
+            </f:then>
+            <f:else>
+                <f:link.page pageUid="{item.data.uid}">{item.title}</f:link.page>
+            </f:else>
+        </f:if>
+    </li>
+</f:section>
+
+<f:section name="submenu">
+    <ul>
+        <f:for each="{item.children}" as="item" iteration="i">
+            <f:render section="link" arguments="{_all}" />
+        </f:for>
+    </ul>
+</f:section>
 
 <f:comment>
     <nav id="menu">
