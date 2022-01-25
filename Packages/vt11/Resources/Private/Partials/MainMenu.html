@@ -6,6 +6,7 @@
     </header>
     <ul>
         <f:for each="{mainMenu}" as="item" iteration="i">
+            <f:debug title="" inline="1">{item}</f:debug>
             <li>
                 <f:link.page pageUid="{item.data.uid}">{item.title}</f:link.page>
             </li>
