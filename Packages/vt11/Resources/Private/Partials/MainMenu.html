@@ -19,7 +19,7 @@
                 <f:render section="submenu" arguments="{_all}" />
             </f:then>
             <f:else>
-                <f:link.page pageUid="{item.data.uid}">{item.title}</f:link.page>
+                <f:link.page pageUid="{item.data.uid}" title="{item.title}" target="{item.target}">{item.title}</f:link.page>
             </f:else>
         </f:if>
     </li>
