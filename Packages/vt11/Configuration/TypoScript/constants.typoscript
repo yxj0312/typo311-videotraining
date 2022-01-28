@@ -1,18 +1,18 @@
-// @import "EXT:vt11/Configuration/TypoScript/Constants/*.typoscript"
+@import "EXT:vt11/Configuration/TypoScript/Constants/*.typoscript"
 
 // # customcategory=vt11=Sitepackage Videotraining TYPO3 11
 // # customsubcategory=logoheader=Logo/Header
 // # customsubcategory=socialmedia=Social Media
 
-// vt11 {
-//     # cat = vt11/links; type = int+; label = RootPage ID:ID der Startseite der Website
-//     rootPageId = 1
+vt11 {
+    # cat = vt11/links; type = int+; label = RootPage ID:ID der Startseite der Website
+    rootPageId = 1
 
-//     # cat = vt11/logoheader; type = string; label = Logo-Text für den Kopfbereich:Sofern kein Logo verwendet wird, wird dieser Text an Stelle des Logos angezeigt. Falls ein Logo verwendet wird, wird der Text für das alt- und das title-Attribut verwendet.
-//     logoText = Mein Firmenname
+    # cat = vt11/logoheader; type = string; label = Logo-Text für den Kopfbereich:Sofern kein Logo verwendet wird, wird dieser Text an Stelle des Logos angezeigt. Falls ein Logo verwendet wird, wird der Text für das alt- und das title-Attribut verwendet.
+    logoText = Mein Firmenname
 
-//     # cat = vt11/logoheader; type = string; label = Logo-Datei:Pfad zu einer Logo Datei, z.B. fileadmin/logo.png oder EXT:my_sitepackage/Resources/Public/Images/logo.png
-//     logoFile = EXT:vt11/Resources/Public/Images/logo.png
+    # cat = vt11/logoheader; type = string; label = Logo-Datei:Pfad zu einer Logo Datei, z.B. fileadmin/logo.png oder EXT:my_sitepackage/Resources/Public/Images/logo.png
+    logoFile = EXT:vt11/Resources/Public/Images/logo.png
 
 //     # cat = vt11/links; type = int+; label = Search plugin ID:ID des Plugins der indexed_search
 //     searchPluginId = 13
@@ -34,4 +34,4 @@
 
 //     # cat = vt11/socialmedia; type = string; label = Github:dein Benutzername bei Github
 //     socialmedia.github = wowaTYPO3
-// }
+}

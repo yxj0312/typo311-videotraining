@@ -54,4 +54,10 @@ page.10 {
         content2 < styles.content.get
         content2.select.where = colPos = 2
     }
+
+    settings {
+        rootPageId = {$vt11.rootPageId}
+        logoText = {$vt11.logoText}
+        logoFile = {$vt11.logoFile}
+    }
 }
