@@ -23,8 +23,8 @@ page.10.dataProcessing {
     30 {
         as = rootline
         special = rootline
-        special.value = 0|-1
+        special.range = 0|-1
         titleField = nav_title // title
-        includeNotMenu = 1
+        includeNotInMenu = 1
     }
 }
