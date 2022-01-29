@@ -9,6 +9,7 @@ page {
 
     includeCSS {
         main = EXT:vt11/Resources/Public/Css/main.css
+        custom = EXT:vt11/Resources/Public/Css/custom.css
     }
 
     includeJSFooter {
