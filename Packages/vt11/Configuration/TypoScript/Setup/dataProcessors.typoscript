@@ -17,4 +17,14 @@ page.10.dataProcessing {
         levels = 1
         titleField = nav_title // title
     }
+
+    ## Rootline
+    30 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
+    30 {
+        as = rootline
+        special = rootline
+        special.value = 0|-1
+        titleField = nav_title // title
+        includeNotMenu = 1
+    }
 }
