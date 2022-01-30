@@ -10,5 +10,10 @@ TCEFORM {
             }
             removeItems = 5
         }
+        frame_class {
+            addItems {
+                100 = Überschrift unterstrichen
+            }
+        }
     }
 }
