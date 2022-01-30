@@ -60,5 +60,9 @@ page.10 {
         rootPageId = {$vt11.rootPageId}
         logoText = {$vt11.logoText}
         logoFile = {$vt11.logoFile}
+        socialmedia.twitter = {$vt11.socialmedia.twitter}
+        socialmedia.facebook = {$vt11.socialmedia.facebook}
+        socialmedia.instagram = {$vt11.socialmedia.instagram}
+        socialmedia.github = {$vt11.socialmedia.github}
     }
 }
