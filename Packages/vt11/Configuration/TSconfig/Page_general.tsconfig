@@ -15,5 +15,11 @@ TCEFORM {
                 100 = Überschrift unterstrichen
             }
         }
+        table_class {
+            addItems {
+                alt = Alternativ
+            }
+            removeItems = striped, bordered
+        }
     }
 }
