@@ -1,2 +1,3 @@
 styles.content.textmedia.maxW = 1600
 styles.content.textmedia.maxWInText = 800
+styles.content.textmedia.linkWrap.lightboxEnabled = 1
