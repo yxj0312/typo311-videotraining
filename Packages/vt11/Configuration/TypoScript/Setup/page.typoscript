@@ -20,6 +20,7 @@ page {
         breakpoints = EXT:vt11/Resources/Public/JavaScript/breakpoints.min.js
         util = EXT:vt11/Resources/Public/JavaScript/util.js
         main = EXT:vt11/Resources/Public/JavaScript/main.js
+        fslightbox = EXT:vt11/Resources/Public/JavaScript/fslightbox.js
     }
 
     bodyTagAdd = class="is-preload"
