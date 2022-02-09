@@ -3,3 +3,5 @@ lib.contentElement {
         100 = EXT:vt11/Resources/Private/Extensions/fluid_styled_content/Partials/
     }
 }
+
+lib.contentElement.settings.media.popup.linkParams.ATagParams.dataWrap = data-fslightbox="image-{field:uid}" data-type="image"
