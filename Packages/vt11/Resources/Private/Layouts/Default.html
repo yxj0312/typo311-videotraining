@@ -7,11 +7,12 @@
 			<!-- Header -->
 			<header id="header">
 				<f:render partial="Logo" arguments="{_all}" />
-				<f:render partial="SocialMedia" />
-				
+				<f:render partial="SocialMedia" />				
 			</header>
 			<f:render partial="Rootline" arguments="{_all}" />
+			<!-- TYPO3SEARCH__begin -->
 			<f:render section="Main" />
+			<!-- TYPO3SEARCH__end -->
 		</div>
 	</div>
 
@@ -30,25 +31,11 @@
 			<f:render partial="MainMenu" arguments="{_all}"/>
 
 			<!-- Section -->
+			<!-- TYPO3SEARCH__begin -->
 			<section>
 				{content1 -> f:format.raw()}
 			</section>
-
-			<!-- Section -->
-			<section>
-				<header class="major">
-					<h2>Get in touch</h2>
-				</header>
-				<p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem
-					ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus
-					aliquam.</p>
-				<ul class="contact">
-					<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-					<li class="icon solid fa-phone">(000) 000-0000</li>
-					<li class="icon solid fa-home">1234 Somewhere Road #8254<br />
-						Nashville, TN 00000-0000</li>
-				</ul>
-			</section>
+			<!-- TYPO3SEARCH__end -->
 
 			<!-- Footer -->
 			<f:render partial="Footer" arguments="{_all}" />
