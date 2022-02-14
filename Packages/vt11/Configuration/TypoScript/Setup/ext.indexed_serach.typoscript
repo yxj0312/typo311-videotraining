@@ -1,0 +1,6 @@
+lib.searchField = RECORDS
+lib.searchField {
+    tables = tt_content
+    source = {vt11.searchTargetPid}
+    dontCheckPid = 1
+}
