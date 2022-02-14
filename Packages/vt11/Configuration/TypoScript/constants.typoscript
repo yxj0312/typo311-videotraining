@@ -18,7 +18,7 @@ vt11 {
 //     searchPluginId = 13
 
     # cat = vt11/links; type = int+; label = Search Page ID:ID der Seite mit den Suchergebnissen
-    searchTargetPid = 20
+    searchTargetPid = 26
 
 //     # cat = vt11/links; type = int+; label = Search Root ID:ID der Ausgangsseite für die indexed_search
 //     searchRootPidList = 1
