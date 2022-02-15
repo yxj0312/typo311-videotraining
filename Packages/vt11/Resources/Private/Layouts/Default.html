@@ -3,9 +3,6 @@
 	<!-- Main -->
 	<div id="main">
 		<div class="inner">
-			
-			<f:cObject typoscriptObjectPath="lib.searchField" />
-
 			<!-- Header -->
 			<header id="header">
 				<f:render partial="Logo" arguments="{_all}" />
@@ -22,12 +19,17 @@
 	<div id="sidebar">
 		<div class="inner">
 
+		
+
 			<!-- Search -->
-			<section id="search" class="alt">
-				<form method="post" action="#">
-					<input type="text" name="query" id="query" placeholder="Search" />
-				</form>
-			</section>
+			<f:cObject typoscriptObjectPath="lib.searchField" />
+			<f:comment>
+				<section id="search" class="alt">
+					<form method="post" action="#">
+						<input type="text" name="query" id="query" placeholder="Search" />
+					</form>
+				</section>
+			</f:comment>
 
 			<!-- Menu -->
 			<f:render partial="MainMenu" arguments="{_all}"/>
