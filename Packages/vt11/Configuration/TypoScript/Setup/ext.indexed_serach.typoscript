@@ -11,6 +11,6 @@ plugin.tx_indexedsearch {
 lib.searchField = RECORDS
 lib.searchField {
     tables = tt_content
-    source = {vt11.searchPlugintPid}
+    source = {$vt11.searchPluginId}
     dontCheckPid = 1
 }
