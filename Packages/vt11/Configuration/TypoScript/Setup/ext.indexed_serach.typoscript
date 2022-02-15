@@ -1,6 +1,16 @@
+plugin.tx_indexedsearch {
+    view {
+        partialRootPaths.100 = EXT:vt11/Resources/Private/Extensions/indexed_search/Partials/
+    }
+    settings {
+        targetPid = {$vt11.searchTargetPid}
+        rootPidList = {$vt11.searchRootPidList}
+    }
+}
+
 lib.searchField = RECORDS
 lib.searchField {
     tables = tt_content
-    source = {vt11.searchTargetPid}
+    source = {vt11.searchPlugintPid}
     dontCheckPid = 1
 }

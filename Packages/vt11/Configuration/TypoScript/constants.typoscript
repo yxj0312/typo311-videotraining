@@ -14,14 +14,14 @@ vt11 {
     # cat = vt11/logoheader; type = string; label = Logo-Datei:Pfad zu einer Logo Datei, z.B. fileadmin/logo.png oder EXT:my_sitepackage/Resources/Public/Images/logo.png
     logoFile = EXT:vt11/Resources/Public/Images/logo.png
 
-//     # cat = vt11/links; type = int+; label = Search plugin ID:ID des Plugins der indexed_search
-//     searchPluginId = 13
+    # cat = vt11/links; type = int+; label = Search plugin ID:ID des Plugins der indexed_search
+    searchPluginId = 13
 
     # cat = vt11/links; type = int+; label = Search Page ID:ID der Seite mit den Suchergebnissen
     searchTargetPid = 26
 
-//     # cat = vt11/links; type = int+; label = Search Root ID:ID der Ausgangsseite für die indexed_search
-//     searchRootPidList = 1
+    # cat = vt11/links; type = int+; label = Search Root ID:ID der Ausgangsseite für die indexed_search
+    searchRootPidList = 1
 
     # cat = vt11/socialmedia; type = string; label = Twitter:dein Twitter Username, z.B. wowa_TYPO3
     socialmedia.twitter = wowa_TYPO3
