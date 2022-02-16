@@ -1,0 +1,6 @@
+settings:
+  redirects:
+    autoUpdateSlugs: true
+    autoCreateRedirects: true
+    redirectTTL: 0
+    httpStatusCode: 301
