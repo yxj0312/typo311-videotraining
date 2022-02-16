@@ -69,5 +69,6 @@ page.10 {
         socialmedia.facebook = {$vt11.socialmedia.facebook}
         socialmedia.instagram = {$vt11.socialmedia.instagram}
         socialmedia.github = {$vt11.socialmedia.github}
+        searchTargetPid = {$vt11.searchTargetPid}
     }
 }

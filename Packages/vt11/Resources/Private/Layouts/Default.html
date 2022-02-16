@@ -22,7 +22,9 @@
 		
 
 			<!-- Search -->
-			<f:cObject typoscriptObjectPath="lib.searchField" />
+			<f:if condition="{data.uid} != {settings.searchTargetPid}">
+				<f:cObject typoscriptObjectPath="lib.searchField" />
+			</f:if>
 			<f:comment>
 				<section id="search" class="alt">
 					<form method="post" action="#">
